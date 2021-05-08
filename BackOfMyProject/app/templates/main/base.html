@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <link rel="stylesheet" href="../../static/main/categories_css/style.css"> 
+    <link rel="stylesheet" href="../../static/main/categories_css/layout.css">
+    <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v5.15.1/css/pro.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+            <!-- header navbar start -->
+            <section id="header">
+                <div class="header-navbar">
+                    <div class="header-container">
+                       <div class="navbar-logo">
+                          <!-- Dayan içimdə bu söz dolaşır,yazım sonra davam edim -->
+                          <!-- QARANLIQ GECƏDƏ GÖZÜMÜN İŞIĞII -->                         
+                          <img src="../../static/img/Screenshot_1.png" title="Company Brand">
+                       </div>
+                       <div class="navbar-nav">
+                          <ul>
+                            <li>
+                                 <a href="/">Home</a>
+                                 <a href="/categories">Categories</a>
+                                 <a href="about.html">About</a>                             
+                                 <a href="login.html">Log In</a>
+                                 <a href="contactus.html">Contact</a> 
+                                 <a href="button.html">
+                                    <button><i class="fas fa-user-circle"></i></button>
+                                 </a>
+                        <a href="">
+                           <button><i class="fas fa-shopping-cart"></i></button>
+                        </a>
+                             </li>
+                          </ul>                             
+                       </div>
+                    </div>           
+                </div>
+            </section>           
+            <!-- header navbar end -->
+            
+             <!-- Main content -->
+
+             {% block main %}
+             
+             {% endblock main %}             
+
+             <!-- Main content end -->
+
+             <!-- footer start -->
+             <section id="footer">
+                <div class="row">
+                   <div class="col-3">
+                      <div class="footer-item">
+                         <ul>
+                           <li>Home</li>
+                           <li></li>Categories</li>
+                           <li>About</li>
+                           <li>Log In</li>
+                         </ul>        
+                      </div>
+                   </div>
+                   <div class="col-3">
+                      <div class="footer-item">
+                         <ul>
+                            <li>500 Terry Francois St</li>
+                            <li>San Francisco, CA 94158</li>
+                            <li>Email : info@my-domain.com</li>
+                            <li>Tel : 1-800-000-0000</li>
+                         </ul>
+                      </div>
+                   </div>
+                   <div class="col-3">
+                      <div class="footer-item">
+                         <ul>
+                            <li>Shopping & returns</li>
+                            <li>FAQ</li>
+                         </ul>
+                      </div>
+                      <div class="footer-social-icons">
+                         <i class="fab fa-facebook-f"></i>
+                         <i class="fab fa-twitter"></i>
+                         <i class="fab fa-instagram"></i>
+                      </div>
+                   </div>
+                   <div class="col-3">
+                      <div class="item">
+                         <div class="title">
+                            <h4>Receive all our news and updates</h4>
+                         </div>
+                         <div class="contact">
+                            <form>
+                               <div class="form-element">
+                                  <input type="email" placeholder="Email address*">
+                               </div>
+                               <div class="form-element">
+                                  <input type="button" value="Subscribe now">
+                               </div>
+                            </form>
+                         </div>
+                      </div>           
+                   </div>
+                </div>
+             </section>
+             <!-- End footer-->   
+             
+    </div>
+</body>
+</html>

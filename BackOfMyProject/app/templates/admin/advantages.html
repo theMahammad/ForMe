@@ -1,0 +1,42 @@
+{% extends "admin/base.html" %}
+{% block title %}
+Üstünlüklər
+{% endblock %}
+{% block block1 %}
+<h2>Üstünlük əlavə et</h2>
+
+<form action="/admin/advantages" method="POST">
+<input type="text" placeholder="Font-Awesome sinfi daxil edin" name="advantage_icon">
+<input type="text " placeholder="Yazını daxil edin" name="advantage_text" >
+<button type="submit" class="btn btn-primary">Əlavə et</button>
+
+</form>
+
+<!-- <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">İd</th>
+        <th scope="col">Üstünlük ikonu</th>
+        <th scope="col">Üstünlük yazısı</th>
+        <th scope="col">Əməliyyat</th>
+      </tr>
+    </thead>
+    <tbody>
+        {% for object in list %}
+        
+        {% endfor %}
+      <tr>
+        <th scope="row">{{}}</th>
+        <td>{{}}</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+      </tr>
+    
+    </tbody>
+  </table> -->
+
+
+{% endblock %}
+{% block block2 %}
+
+{% endblock %}

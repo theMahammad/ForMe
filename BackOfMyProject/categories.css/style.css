@@ -1,0 +1,161 @@
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+/* Header bolmesi  */
+
+.header-container{
+    
+    margin: 0px auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+button{
+    border-radius: 40px;
+    outline: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.navbar-logo img{
+    margin: 0px 40px;
+    height: 100px;
+
+}
+
+.navbar-nav ul{
+    margin: 40px ;
+    padding: 0px;
+    display: flex;
+
+}
+
+.navbar-nav ul li{
+    list-style: none;
+}
+
+.navbar-nav ul li button{
+    overflow: hidden;
+    flex-shrink: 0;
+    padding-left: 1px;
+    padding-right: 1px;
+    border: none;
+    outline: none;
+    background-color: white;
+    font-size: 20px;
+}
+
+.navbar-nav ul li a{
+    list-style: none;
+    padding: 0px 5px;
+    font-weight: 400;
+    cursor: pointer;
+    
+}
+
+.navbar-nav ul li a:hover{
+    color: #a65f19;
+}
+
+.navbar-nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.store-view{
+    margin: 38px 40px;
+    height: 100%;
+    background-color:#f0f0f0;
+    padding: 30px 0px;
+}
+
+.store-view .store-item{
+    /* margin: 0px 30px; */
+    border: 6px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.store-view .store-item .title h1{
+    padding: 10px 85px ;
+    color:rgb(48, 46, 46);
+
+
+}
+.store-view .store-item .title h2{
+    font-size: 17px;
+    text-align: center;
+    color: rgb(48, 46, 46);
+}
+
+
+.store-view .container .row .col-3{
+    padding: 50px;
+}
+
+.store-view .container .row .col-3 .store-item img{
+    width: 100%;
+    object-fit: cover;
+    cursor: pointer; 
+}
+
+.store-view .container .row .col-12{
+    text-align: center;
+    margin-top: 30px 0px;
+    font-size: 15px;
+
+}
+
+.store-view .container .row .col-3 .title{
+    background-color: white;
+    font-size: 6px;
+}
+
+
+/* footer style */
+
+#footer .row .col-3 .footer-item ul li{
+    list-style: none;
+    padding: 7px 12px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+
+
+#footer .row .col-3 .footer-item ul li:hover{
+    color: #a65f19;
+}
+ 
+
+#footer .row .col-3 .footer-social-icons{
+    padding: 0px 54px;
+    cursor: pointer;
+}
+
+
+.form-element{
+    margin: 15px;
+}
+
+.row .col-3 .item .title{
+    padding: 1px 15px;
+}
+
+.form-element input{
+    width: 60%;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+

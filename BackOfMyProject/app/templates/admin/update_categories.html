@@ -1,0 +1,16 @@
+{% extends "admin/base.html" %}
+{% block title %}
+Kateqoriyalar
+{% endblock %}
+{% block block1 %}
+<form action="/admin/categories/update/{{forUpdateCategory.id}}" method="POST">
+    <h2>
+        {{forUpdateCategory.name}} kateqoriyasını dəyişdir
+    </h2>
+<input type="text" name="category_name" class="form-control" value="{{forUpdateCategory.name}}">
+<button type="submit" class="btn btn-primary">Dəyişdir</button>
+
+
+</form>
+
+{% endblock %}
